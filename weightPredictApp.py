@@ -145,7 +145,7 @@ st.write("*Based on data from the last {} days, tomorrow's weight is expected to
 TODO: Handle time when days are between 1-3 and 3-6 (need to adjust # days in validation trace)
 TODO: Add multi-user support
 TODO: Limit number of days on the graph (x-axis) to... 30? 45?
-TODO: Store previous predictions in DB, plot them, and calculate an MSE or something similar
+TODO: Store previous predictions in DB, plot them, and calculate an MSE or something similar. Maybe allow multiple prediction algos to be plotted next to each other.
 TODO: SQL errors should be handled and sent to the app so the user can report them
-TODO: Pull default weight from SQL so the current 50 default doesn't show up in another browser or during refresh. 50 should only occur when no weight has ever been entered
+TODO: DB stores whether a value was input by the user or imputed by an algo
 '''
